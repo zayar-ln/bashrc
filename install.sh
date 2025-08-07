@@ -12,7 +12,5 @@ done
 
 cp .bashrc "$HOME/.bashrc"
 
-echo "Installed You can now type : source ~/.bashrc"
 
-# Delete self
 rm -- "$0"
