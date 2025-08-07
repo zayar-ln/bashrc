@@ -1,4 +1,4 @@
-# bashrcConfig
+# bashrc Config
 
 This is my personal Bash setup. It is designed for productivity, speed, and clarity.
 
@@ -15,10 +15,10 @@ Here’s what this setup gives you
 - Better history with time stamps and search
 - Short and smart aliases for daily tasks
 
-### How to Install/Use.
+### How to Install or Place.
 
-1. Clone or extract this folder into your home directory and rename it " .bashrc.d".
-2. Change directory to ".bashrc.d" and run "install.sh" .
+1. Clone or extract this folder into your home directory.
+2. Change directory to "~/.bashrc.d" and run "install.sh".
 3. Open a new terminal and you’re good to go.
 
 You can also edit or remove any script in `.bashrc.d` if you want to customize it
@@ -26,4 +26,3 @@ You can also edit or remove any script in `.bashrc.d` if you want to customize i
 I made this setup for myself, but you are welcome to use it too.  
 It is meant to be light, fast, and helpful. No bloated tools. No heavy dependencies. Just Bash.
 
-If you’re a terminal lover who wants more control and less clutter, this setup is for you.
