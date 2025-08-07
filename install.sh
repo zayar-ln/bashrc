@@ -12,5 +12,5 @@ done
 
 cp .bashrc "$HOME/.bashrc"
 
+[ -f "$0" ] && rm -- "$0"
 
-rm -- "$0"
