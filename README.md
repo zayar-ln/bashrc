@@ -1,4 +1,4 @@
-# bashrc-standout
+# bashrcConfig
 
 This is my personal Bash setup. It is designed for productivity, speed, and clarity.
 
