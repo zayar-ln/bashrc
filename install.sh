@@ -1,8 +1,18 @@
 #!/bin/bash
+echo "Installing bashrc-standout..."
 
-echo "Installing bashrc "
-mkdir -p ~/.bashrc.d
-cp -r .bashrc.d/* ~/.bashrc.d/
-cp .bashrc ~/.bashrc
+mkdir -p "$HOME/.bashrc.d"
 
-echo "You can now Reload with: source ~/.bashrc"
+for file in .bashrc.d/*.sh; do
+  dest="$HOME/$file"
+  if [ "$(realpath "$file")" != "$(realpath "$dest")" ]; then
+    cp "$file" "$dest"
+  fi
+done
+
+cp .bashrc "$HOME/.bashrc"
+
+echo "Installed You can now type : source ~/.bashrc"
+
+# Delete self
+rm -- "$0"
