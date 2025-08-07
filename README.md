@@ -15,11 +15,11 @@ Here’s what this setup gives you
 - Better history with time stamps and search
 - Short and smart aliases for daily tasks
 
-### How to Install
+### How to Install/Use.
 
-1. Clone or extract this folder into your home directory
-2. Run the `install.sh` script
-3. Open a new terminal and you’re good to go
+1. Clone or extract this folder into your home directory and rename it " .bashrc.d".
+2. Cut or copy the ".bashrc" to Home and overwrite the existing file.
+3. Open a new terminal and you’re good to go.
 
 You can also edit or remove any script in `.bashrc.d` if you want to customize it
 
